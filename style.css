@@ -44,3 +44,6 @@ footer > button {
     margin-top: -5px;
 }
 
+aside {
+    display: flex;
+}
