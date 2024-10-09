@@ -5,7 +5,7 @@ html, body {
 }
 
 .carousel-item > img {
-    height: 400px;
+    height: 300px;
     object-fit: cover;
 }
 .navbar-nav .nav-link{
@@ -43,3 +43,4 @@ h1 h2 {
 footer > button {
     margin-top: -5px;
 }
+
