@@ -1,0 +1,45 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-item > img {
+    height: 400px;
+    object-fit: cover;
+}
+.navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar-nav .nav-link:hover{
+    color: rgb(102, 102, 102);
+}
+
+h1 h2 {
+    color: antiquewhite;
+    padding-top: 1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.container-fluid > img {
+    height: 200px;
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.list-group-item {
+    margin-top: -5px;
+}
+
+
+.list-group-horizontal {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+footer > button {
+    margin-top: -5px;
+}
