@@ -11,30 +11,61 @@
     rel="stylesheet">
 </head>
 
-<body class="bg-dark">
+<body class="bg-black">
     <nav class="navbar navbar-expand-lg bg-dark navbar-light py-2">
         <div class="container-fluid">
-            <a class="navbar-brand px-3" href="#">
-                <img src="/image.png" style="width: 90px; height: 50px;"alt="">
+
+            <a class="navbar-brand px-5" href="#">
+                <img src="/logonova.png" style="width: 110px; height: 65px;" alt="logosite">
             </a>
-            <ul class="navbar-nav gap-4">
-                <li class="nav-item">
-                    <a class="nav-link" href="/index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/apresentação.html">Sobre mim</a>
-                </li>
-            </ul>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list" style="font-size: 1.5rem; color: white;"></i>
+            </button>
+            
+            <!-- Links do menu -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto gap-4">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/apresentação.html">Sobre mim</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
     <div>
-        <div>
-            <h1 class="lead text-light py-4 text-center height-100">SOBRE MIM</h1>
+        <aside id="section" class="text-light">
+            <img src="/fotoperfil.png"  class="img-fluid rounded-circle p-3 ms-4"  style="width:250px ; height:240px ;">
+            <div id="bordas gap-4"   class="container">
+                <div class="col-12 col-md-8 bg-dark mt-4 mb-3 border rounded-5"></div>
+                <div class="col-12 col-md-4 bg-dark mt-4 mb-3 border rounded-5"></div>
+            </div>
+        </aside>
+    </div>
+    <div class="mt-4">
+        <h1 class="text-light">FERRAMENTAS E HABILIDADES ATUAIS</h1>
+        <div class="bg-dark">
+            <ul class="text-light d-flex list-unstyled gap-5">
+                <li>html</li>
+                <li>css</li>
+                <li>git</li>
+                <li>github</li>
+                <li>flask</li>
+                <li>python</li>
+                <li>bootstrap</li>
+                <li>vscode</li>
+                <li>figma</li>
+                <li>mysql</li>
+            </ul>
         </div>
     </div>
+    
 
 
 

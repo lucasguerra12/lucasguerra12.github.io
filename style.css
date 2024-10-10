@@ -44,3 +44,15 @@ footer > button {
     margin-top: -5px;
 }
 
+aside {
+    display: flex;
+}
+
+aside > div {
+    display: flex;
+}
+
+#bordas {
+    gap: px;
+}
+
