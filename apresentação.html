@@ -10,7 +10,6 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
     rel="stylesheet">
 </head>
-<<<<<<< HEAD
 
 <body class="bg-black">
     <nav class="navbar navbar-expand-lg bg-dark navbar-light py-2">
@@ -18,14 +17,6 @@
 
             <a class="navbar-brand px-5" href="#">
                 <img src="/logonova.png" style="width: 110px; height: 65px;" alt="logosite">
-=======
-<body class="bg-dark">
-    <nav class="navbar navbar-expand-lg bg-dark navbar-light py-2">
-        <div class="container-fluid">
-
-            <a class="navbar-brand px-3" href="#">
-                <img src="/image.png" style="width: 190px; height: 65px;" alt="">
->>>>>>> 3b33d3994a05f0fe1fb962869298d5b4ddac920b
             </a>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,7 +27,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto gap-4">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="/index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Projetos</a>
@@ -44,36 +35,91 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/apresentação.html">Sobre mim</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contato.html">Contato</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
     <div>
         <aside id="section" class="text-light">
-            <img src="/fotoperfil.png"  class="img-fluid rounded-circle p-3 ms-4"  style="width:250px ; height:240px ;">
-            <div id="bordas gap-4"   class="container">
-                <div class="col-12 col-md-8 bg-dark mt-4 mb-3 border rounded-5"></div>
-                <div class="col-12 col-md-4 bg-dark mt-4 mb-3 border rounded-5"></div>
+            <img src="/fotoperfil.png" class="img-fluid rounded-circle p-3 ms-4" style="width:250px; height:240px;">
+            <div id="bordas" class="container">
+                <div class="col-12 col-md-8 bg-dark mt-4 mb-3 border-0 rounded-5"> <!-- Removido border -->
+                    <div class="card-body ms-3">
+                        <h6 class="card-title mt-3">NOME:</h6>
+                        <p class="card-text">LUCAS FERNANDO GUERRA</p>
+                        <hr>
+                        <h6 class="card-subtitle mb-2">FACULDADE/CURSO:</h6>
+                        <p class="card-text">FATEC SJC - Desenvolvimento de Software Multiplataforma (Conclusão prevista 06/2027)</p>
+                        <p class="card-text">Universidade Paulista - Análise e Desenvolvimento de Sistemas (Concluído em 04/2024)</p>
+                        <hr>
+                        <h6 class="card-subtitle mb-3">CIDADE:</h6>
+                        <p class="card-text mb-2">SÃO JOSÉ DOS CAMPOS</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 bg-dark mt-4 mb-3 ms-2 border-0 rounded-5"> <!-- Removido border -->
+                    <h3 class="text-light text-center">Idiomas</h3>
+                    <div>
+                        <div>
+                            <h6 class="ms-3">English</h6>
+                            <p class="bg-light text-dark mx-3 text-center border-0 rounded-5">INTERMEDIARIO</p> <!-- Removido border -->
+                        </div>
+                        <div>
+                            <h6 class="ms-3">Spanish</h6>
+                            <p class="bg-light text-dark mx-3 text-center border-0 rounded-5">BÁSICO</p> <!-- Removido border -->
+                        </div>
+                    </div>
+                </div>
             </div>
         </aside>
-    </div>
+    </div>    
     <div class="mt-4">
-        <h1 class="text-light">FERRAMENTAS E HABILIDADES ATUAIS</h1>
-        <div class="bg-dark">
-            <ul class="text-light d-flex list-unstyled gap-5">
-                <li>html</li>
-                <li>css</li>
-                <li>git</li>
-                <li>github</li>
-                <li>flask</li>
-                <li>python</li>
-                <li>bootstrap</li>
-                <li>vscode</li>
-                <li>figma</li>
-                <li>mysql</li>
+        <h1 class="text-dark ms-4">FERRAMENTAS E HABILIDADES ATUAIS</h1>
+        <div class="bg-dark mx-5 width:870px;" id="blocoferramenta">
+            <ul id="listaferramenta"   class="text-light d-flex list-unstyled gap-5 pt-2">
+                <li><img src="/html5logo.png"></li>
+                <li><img src="/css3logo.png"></li>
+                <li><img src="/gitlogo.png" height="50px"></li>
+                <li><img src="/githublogo.png"></li>
+                <li><img src="/flasklogo.png"></li>
+                <li><img src="/pythonlogo.png"></li>
+                <li><img src="/bootstraplogo.png"></li>
+                <li><img src="/vscodelogo.png"></li>
+                <li><img src="/figmalogo.png"></li>
+                <li><img class="me-4"    src="/mysqllogo.png"></li>
             </ul>
         </div>
     </div>
+    <div class="mt-5">
+    <h1 class="text-dark ms-4">PRINCIPAIS SOFT SKILLS</h1>
+    <div id="segundadiv">
+        <div class="col-12 col-md-4 bg-dark mt-4 mb-3 ms-2 border-transparent rounded-5">
+            <ul class="text-light my-3 ms-4">
+                <li>PRODUTIVO</li>
+                <li>CRIATIVO</li>
+                <li>GESTÃO DE TEMPO</li>
+                <li>TRABALHO EM EQUIPE</li>
+                <li>COMUNICAÇÃO</li>
+            </ul>
+        </div>
+        <div class="col-12 col-md-4 bg-dark mt-4 mb-3 ms-2 border-transparent rounded-5">
+            <h6 class="text-light text-center">CURSOS</h6>
+            <div>
+                <div>
+                    <h6 class="ms-3 text-light">HTML/CSS/JAVASCRIPT</h6>
+                    <p class="bg-light text-dark mx-3 text-center border rounded-5">EBAC - Escola Britânica de Artes Criativas e Tecnologia</p>
+                </div>
+                <div>
+                    <h6 class="ms-3 text-light">FRONT-END/UI/UX</h6>
+                    <p class="bg-light text-dark mx-3 text-center border rounded-5">ORIGAMID</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
     
 
 
@@ -95,3 +141,6 @@
 </body>
 </html>
     
+
+
+

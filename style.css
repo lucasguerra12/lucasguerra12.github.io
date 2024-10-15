@@ -52,7 +52,22 @@ aside > div {
     display: flex;
 }
 
-#bordas {
-    gap: px;
+#segundadiv{
+    display: flex;
+    justify-content: space-around;
 }
 
+
+#listaferramenta > li > img {
+    display: flex;
+    width: 90px;
+    height: 80px; ;
+}
+
+#listaferramenta {
+    justify-content: space-between;
+}
+
+#blocoferramenta {
+    height: 100px;
+}

@@ -1,0 +1,18 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+.contact-card {
+    background-color: #1a1a1a;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar-nav .nav-link:hover{
+    color: rgb(102, 102, 102);
+}
