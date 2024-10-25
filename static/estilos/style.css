@@ -5,7 +5,7 @@ html, body {
 }
 
 .carousel-item > img {
-    height: 300px;
+    height: 400px;
     object-fit: cover;
 }
 .navbar-nav .nav-link{
@@ -32,12 +32,10 @@ h1 h2 {
 .list-group-item {
     margin-top: -5px;
 }
-
-
 .list-group-horizontal {
     display: flex;
-    justify-content: space-around;
     text-align: center;
+    justify-content: center;
 }
 
 footer > button {
@@ -56,18 +54,6 @@ aside > div {
     display: flex;
     justify-content: space-around;
 }
-
-
-#listaferramenta > li > img {
-    display: flex;
-    width: 90px;
-    height: 80px; ;
-}
-
-#listaferramenta {
-    justify-content: space-between;
-}
-
-#blocoferramenta {
-    height: 100px;
+#capa22 {
+    height: 300px;
 }

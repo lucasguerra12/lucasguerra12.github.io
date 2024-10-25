@@ -1,0 +1,161 @@
+#footer {
+    justify-content: center;
+}
+#lucas {
+    margin-left: 150px;
+    color: rgb(216, 216, 216);
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+}
+
+#sjc {
+    margin-left: 260px;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    color: rgb(105, 105, 105,);
+}
+body{
+    background-color: black;
+}
+#navbarNav .nav-link {
+    color: white 
+}
+#navbarNav .nav-link:hover {
+    color: gray;
+}
+#fotos {
+    position: relative;
+    width: 100%;
+    height: 550px;
+}
+#triangulo {
+    width: 100%;
+     height: 100%;
+    object-fit: cover;
+}
+#paragrafo {
+    position: absolute; 
+    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 73%;
+    color: rgb(163, 163, 163);
+    font-family: 'Inter', sans-serif;
+    font-style:normal
+}
+#divferramentas {
+    background-color: rgb(30, 30, 30);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    
+
+}
+#textoferramenta {
+    color: black;
+    margin-bottom: 30px;
+}
+
+#icones {
+    margin-top: 10px;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center ;
+}
+#fundoformacao {
+    background-color: blue;
+    margin-right: 200px;
+}
+
+#formacao {
+    width: 70%;
+    height: 290px;
+    background-color:rgb(30, 30, 30);
+    margin-top: 85px;
+    border-top-right-radius: 115px; 
+    border-bottom-right-radius: 115px;
+    padding-top: 20px;
+
+}
+#formacao2 {
+    border-top-right-radius: 115px; 
+    border-bottom-right-radius: 115px;
+    color: #ffffff; /* Cor do texto branco */
+    text-align: center; 
+    width: 90%;
+    margin-left: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+}
+
+#soft {
+    width: 45%;
+    height: 290px;
+    background-color:rgb(30, 30, 30);
+    margin-top: 85px;
+    border-top-right-radius: 115px; 
+    border-bottom-right-radius: 115px;
+    padding-top: 20px;
+}
+
+#soft2 {
+    border-top-right-radius: 115px; 
+    border-bottom-right-radius: 115px;
+    color: #ffffff; /* Cor do texto branco */
+    text-align: center; 
+    width: 90%;
+    margin-left: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+}
+
+#cursos {
+    width: 55%;
+    height: 290px;
+    background-color:rgb(30, 30, 30);
+    margin-top: 85px;
+    border-top-right-radius: 115px; 
+    border-bottom-right-radius: 115px;
+    padding-top: 20px;
+}
+
+#cursos2 {
+    border-top-right-radius: 115px; 
+    border-bottom-right-radius: 115px;
+    color: #ffffff; /* Cor do texto branco */
+    text-align: center; 
+    width: 90%;
+    margin-left: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: italic
+}
+
+#idiomas {
+    width: 35%;
+    height: 290px;
+    background-color:rgb(30, 30, 30);
+    margin-top: 85px;
+    border-top-right-radius: 115px; 
+    border-bottom-right-radius: 115px;
+    padding-top: 20px;
+}
+
+#idiomas2 {
+    border-top-right-radius: 115px; 
+    border-bottom-right-radius: 115px;
+    color: #ffffff; /* Cor do texto branco */
+    text-align: center; 
+    width: 90%;
+    margin-left: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: italic
+}
+
+#topicocurso {
+    list-style-type: none;
+}
+
+#topicoidioma {
+    list-style-type: none;
+
+}
+
