@@ -1,16 +1,17 @@
-## Hi there 👋
+# Meu Portfólio - GitHub Pages
 
-<!--
-**lucasguerra12/lucasguerra12** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Bem-vindo ao meu portfólio online! Este repositório contém o código-fonte do meu portfólio desenvolvido com HTML, CSS e JavaScript, hospedado no GitHub Pages.
 
-Here are some ideas to get you started:
+## Tecnologias Utilizadas
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- **HTML**: Estruturação das páginas e conteúdo.
+- **CSS**: Estilização do layout e design responsivo.
+- **JavaScript**: Interatividade e funcionalidades dinâmicas.
+
+## Funcionalidades
+
+- Página inicial com uma introdução sobre mim.
+- Seção de **Projetos** destacando alguns dos meus trabalhos.
+- Seção **Sobre Mim**, apresentando mais informações pessoais e profissionais.
+- Layout responsivo, adaptado para diferentes tamanhos de tela.
+
